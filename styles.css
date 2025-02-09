@@ -82,4 +82,19 @@ body{
     justify-content: space-between;
     padding: 0 20px;
     margin-top: 50px;
-}/*13:15*/
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img {
+    width: 40px;
+    margin-right: 10px;
+}
+.humidity, .wind{
+    font-size: 28px;
+    margin-top: -6px;
+}
